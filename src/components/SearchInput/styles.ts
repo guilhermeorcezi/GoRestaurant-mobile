@@ -9,13 +9,12 @@ export const Container = styled.View<ContainerProps>`
   width: 100%;
   height: 60px;
   padding: 0 16px;
-  background: ${props => props.theme.colors.inputContainer};
+  background: #f0f0f5;
   border-radius: 10px;
   border-width: 2px;
-  border-color: ${props => props.theme.colors.inputContainer};
+  border-color: #f0f0f5;
   flex-direction: row;
   align-items: center;
-
   ${props =>
     props.isFocused &&
     css`
@@ -25,7 +24,7 @@ export const Container = styled.View<ContainerProps>`
 
 export const TextInput = styled.TextInput`
   flex: 1;
-  color: ${props => props.theme.colors.title};
+  color: #6c6c80;
   font-size: 16px;
   font-family: 'Poppins-Regular';
 `

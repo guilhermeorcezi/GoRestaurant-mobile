@@ -5,8 +5,6 @@ import { View, StatusBar } from 'react-native'
 
 import Routes from './routes'
 
-import ThemeSwitcher from './components/ThemeSwitcher'
-
 import light from './styles/themes/light'
 import dark from './styles/themes/dark'
 
@@ -26,7 +24,6 @@ const App: React.FC = () => {
           translucent
         />
         <Routes />
-        <ThemeSwitcher toggleTheme={toggleTheme} />
       </View>
     </ThemeProvider>
   )
